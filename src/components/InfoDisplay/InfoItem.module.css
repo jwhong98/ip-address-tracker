@@ -1,0 +1,19 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.title {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 59%);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.content {
+  font-weight: 700;
+  color: hsl(0, 0%, 17%);
+}

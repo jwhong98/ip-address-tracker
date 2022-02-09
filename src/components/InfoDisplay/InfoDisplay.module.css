@@ -1,0 +1,23 @@
+.display {
+  background-color: #fff;
+  display: flex;
+  position: relative;
+  z-index: 20;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  border-radius: 15px;
+  width: 90%;
+  margin: auto;
+  top: -6rem;
+}
+
+.displayMenu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
+}

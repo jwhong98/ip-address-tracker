@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 3rem;
+}
+
+.input {
+  border: none;
+  height: auto;
+  width: 83%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 1rem;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::placeholder {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 59%);
+}
+
+.form button {
+  width: 17%;
+  border: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: black;
+}
